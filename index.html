@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeIO</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
     <!-- normalize css file -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- main css file -->
@@ -15,6 +17,7 @@
     </style>
 </head>
 <body>
+    <!-- start navbar -->
     <nav x-data="{ show: false }">
         <div class="container">
             <div class="logo">Code<span>IO</span></div>
@@ -33,6 +36,8 @@
             </div>
         </div>
     </nav>
+    <!-- end navbar -->
+    <!-- start header  -->
     <header>
         <div class="container">
             <div class="text">
@@ -41,6 +46,26 @@
             </div>
         </div>
     </header>
+    <!-- end header -->
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-magic fa-3x"></i>
+                <h3>Tell Us Your Idea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illum libero totam fugiat</p>
+            </div>
+            <div class="feature">
+                <i class="far fa-gem fa-3x"></i>
+                <h3>We Will Do All The Work</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illum libero totam fugiat</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-globe-asia fa-3x"></i>
+                <h3>Your Product is Worldwide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illum libero totam fugiat</p>
+            </div>
+        </div>
+    </section>
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
