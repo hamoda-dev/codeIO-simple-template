@@ -6,3 +6,5 @@ simple profile website
 - HTML
 - CSS
 - AlpineJs
+
+[Live Preview](https://hamoda-dev.github.io/codeIO-simple-template)
